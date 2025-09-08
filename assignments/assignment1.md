@@ -59,8 +59,8 @@ Researching topics efficiently can be extremely time-consuming, particularly whe
 ## Stakeholders
 1. Student Groups & Club Coordination<br>
 **Stakeholders:**  
-- Student (direct user): Works on tasks and relies on group coordination.  
-- Club Leader / Project Manager (direct user): Organizes tasks, assigns responsibilities, and tracks progress.  
+   - Student (direct user): Works on tasks and relies on group coordination.  
+   - Club Leader / Project Manager (direct user): Organizes tasks, assigns responsibilities, and tracks progress.  
 - Professor / TA (indirect user): Oversees group projects or club activities, may be affected by missed deadlines.  
 **Impact:**  
 Students suffer from stress, missed deadlines, and reduced productivity when tasks are lost. Club leaders face additional workload and coordination challenges. Professors or TAs might see project quality drop or experience extra administrative burden when group members are uncoordinated. A well-designed tool could improve workflow efficiency, reduce missed tasks, and increase overall satisfaction for all stakeholders.
