@@ -61,28 +61,25 @@ Researching topics efficiently can be extremely time-consuming, particularly whe
 **Stakeholders:**  
    - Student (direct user): Works on tasks and relies on group coordination.  
    - Club Leader / Project Manager (direct user): Organizes tasks, assigns responsibilities, and tracks progress.  
-- Professor / TA (indirect user): Oversees group projects or club activities, may be affected by missed deadlines.  
+   - Professor / TA (indirect user): Oversees group projects or club activities, may be affected by missed deadlines.  
 **Impact:**  
 Students suffer from stress, missed deadlines, and reduced productivity when tasks are lost. Club leaders face additional workload and coordination challenges. Professors or TAs might see project quality drop or experience extra administrative burden when group members are uncoordinated. A well-designed tool could improve workflow efficiency, reduce missed tasks, and increase overall satisfaction for all stakeholders.
 
----
 
 2. Early Financial Literacy<br>
 **Stakeholders:**  
-- Student (direct user): Needs to monitor spending, budget effectively, and meet savings goals.  
-- Parents / Guardians (indirect user): May support or advise financially, concerned about financial habits.  
-- Banks / Financial Institutions (indirect user): Could provide data integration, see responsible use of accounts, or offer guidance.  
+   - Student (direct user): Needs to monitor spending, budget effectively, and meet savings goals.  
+   - Parents / Guardians (indirect user): May support or advise financially, concerned about financial habits.  
+   - Banks / Financial Institutions (indirect user): Could provide data integration, see responsible use of accounts, or offer guidance.  
 
 **Impact:**  
 Students who cannot track spending may overspend, incur debt, or develop poor financial habits. Parents or guardians may have to intervene or provide extra support, and banks could be indirectly affected by user account behavior. Addressing this problem through a tracking tool helps students build financial literacy, reduces stress, and encourages responsible financial decision-making.  
 
----
-
 3. Academic Paper Discovery & Summarization<br>
 **Stakeholders:**  
-- Student / Researcher (direct user): Searches for relevant academic papers for coursework, projects, or research.  
-- Professors / Supervisors (indirect user): Expect students to be well-prepared and efficient in research.  
-- Library / Database Providers (indirect user): Maintain access to papers, may provide APIs or search tools, impacted by how users interact with their platforms.  
+   - Student / Researcher (direct user): Searches for relevant academic papers for coursework, projects, or research.  
+   - Professors / Supervisors (indirect user): Expect students to be well-prepared and efficient in research.  
+   - Library / Database Providers (indirect user): Maintain access to papers, may provide APIs or search tools, impacted by how users interact with their platforms.  
 
 **Impact:**  
 Students and researchers waste significant time searching for relevant papers, which slows progress and reduces learning or research efficiency. Professors and supervisors may see lower-quality work or delayed progress. Library and database providers could benefit if users engage more efficiently with resources, or may need to support additional API or search integrations. A tool that streamlines literature search saves time and improves research quality for all stakeholders.
