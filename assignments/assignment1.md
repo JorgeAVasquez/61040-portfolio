@@ -57,36 +57,34 @@ Researching topics efficiently can be extremely time-consuming, particularly whe
   - Excluded: Interesting but may be too complex for the first app iteration. Visualization is a nice addition, but is secondary to the core search problem.
 
 ## Stakeholders
-1. Student Groups & Club Coordination<br>
-**Stakeholders:**  
+1. Student Groups & Club Coordination
+- **Stakeholders:**  
    - Student (direct user): Works on tasks and relies on group coordination.  
    - Club Leader / Project Manager (direct user): Organizes tasks, assigns responsibilities, and tracks progress.  
-   - Professor / TA (indirect user): Oversees group projects or club activities, may be affected by missed deadlines.  
-**Impact:**  
-Students suffer from stress, missed deadlines, and reduced productivity when tasks are lost. Club leaders face additional workload and coordination challenges. Professors or TAs might see project quality drop or experience extra administrative burden when group members are uncoordinated. A well-designed tool could improve workflow efficiency, reduce missed tasks, and increase overall satisfaction for all stakeholders.
-
+   - Professor / TA (indirect user): Oversees group projects or club activities, may be affected by missed deadlines.
+- **Impact:**  
+Students suffer from stress, missed deadlines, and reduced productivity when tasks are lost. Club leaders face additional workload and coordination challenges. Professors or TAs might see project quality drop or experience extra administrative burden when group members are uncoordinated. A well-designed tool could improve workflow efficiency, reduce missed tasks, and increase overall satisfaction for all stakeholders.<br>
 
 2. Early Financial Literacy<br>
-**Stakeholders:**  
+- **Stakeholders:**  
    - Student (direct user): Needs to monitor spending, budget effectively, and meet savings goals.  
    - Parents / Guardians (indirect user): May support or advise financially, concerned about financial habits.  
-   - Banks / Financial Institutions (indirect user): Could provide data integration, see responsible use of accounts, or offer guidance.  
-
-**Impact:**  
+   - Banks / Financial Institutions (indirect user): Could provide data integration, see responsible use of accounts, or offer guidance.
+- **Impact:**  
 Students who cannot track spending may overspend, incur debt, or develop poor financial habits. Parents or guardians may have to intervene or provide extra support, and banks could be indirectly affected by user account behavior. Addressing this problem through a tracking tool helps students build financial literacy, reduces stress, and encourages responsible financial decision-making.  
 
 3. Academic Paper Discovery & Summarization<br>
-**Stakeholders:**  
+- **Stakeholders:**  
    - Student / Researcher (direct user): Searches for relevant academic papers for coursework, projects, or research.  
    - Professors / Supervisors (indirect user): Expect students to be well-prepared and efficient in research.  
    - Library / Database Providers (indirect user): Maintain access to papers, may provide APIs or search tools, impacted by how users interact with their platforms.  
-
-**Impact:**  
+- **Impact:**  
 Students and researchers waste significant time searching for relevant papers, which slows progress and reduces learning or research efficiency. Professors and supervisors may see lower-quality work or delayed progress. Library and database providers could benefit if users engage more efficiently with resources, or may need to support additional API or search integrations. A tool that streamlines literature search saves time and improves research quality for all stakeholders.
 
 ## Evidence
 
-1. Student Groups & Club Coordination<br>
+1. Student Groups & Club Coordination
+
 **Evidence:**
 - Group Work Challenges: A study found that group activities are designed to build social interaction and interdependence through deadlines, but students are critical of group work due to issues like unequal participation and missed deadlines. ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6234829/))
 - Student Syndrome: Research on procrastination indicates that students often delay tasks until the last minute, leading to rushed work and missed deadlines, which can negatively impact group projects. ([Solving Procrastination](https://solvingprocrastination.com/student-syndrome))
@@ -100,6 +98,7 @@ Students and researchers waste significant time searching for relevant papers, w
 ---
 
 2. Early Financial Literacy
+
 **Evidence:**
 - Financial Literacy Rates: A report from the World Economic Forum reveals that financial literacy in the U.S. has hovered around 50% for eight consecutive years, indicating a significant gap in financial knowledge. ([WEF](https://www.weforum.org/stories/2024/04/financial-literacy-money-education/))
 - Gen Z Financial Literacy: Only 20% of Gen Z adults seek professional financial advice, despite facing student debt and rising living costs. ([Investopedia](https://www.investopedia.com/only-20-of-genz-seeks-professional-financial-advice-11795247))
