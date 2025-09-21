@@ -33,4 +33,38 @@ state
 
 # Synchronization Questions
 
+## 1. Partial Matching
+In the first sync (`generate`), only `shortUrlBase` appears in the `when` clause because the generation of the nonce (the random suffix) does not depend on the `targetUrl`. At the time of nonce generation, we just need to know which base (domain) we are generating for, not what the link will point to.  
+On the other hand, the second sync (`register`) needs both `shortUrlBase` and `targetUrl`, because registering the shortening actually associates the generated nonce (short URL suffix) with its corresponding target URL.
+
+## 2. Omitting Names
+The convention of omitting names is only used when it is completely clear what variable is being bound. If we always omitted names, it would become harder to read synchronizations with multiple arguments or return values, since the reader might confuse which variable is being passed where.  
+Including explicit names is especially helpful when:
+- There are multiple arguments with similar meanings.
+- The same variable is used in both arguments and results (risk of ambiguity).
+- We want to make the specification self-documenting for maintainability.
+
+## 3. Inclusion of Request
+The `Request.shortenUrl` action is included in the first two syncs because both nonce generation and registration are conceptually responses to a user request. They represent part of the end-to-end handling of the user's shorten-URL request.  
+In contrast, `setExpiry` does not depend on user input; it is an internal system action that happens automatically whenever a URL is registered. Hence, it does not need to include the request in its `when` clause.
+
+## 4. Fixed Domain
+If the application used a fixed domain (e.g., `bit.ly`), we could remove `shortUrlBase` as a variable entirely. The synchronizations would then look like:
+
+```
+sync generate
+when Request.shortenUrl (targetUrl)
+then NonceGeneration.generate (context: "bit.ly")
+
+sync register
+when
+  Request.shortenUrl (targetUrl)
+  NonceGeneration.generate (): (nonce)
+then UrlShortening.register (shortUrlSuffix: nonce, shortUrlBase: "bit.ly", targetUrl)
+
+sync setExpiry
+when UrlShortening.register (): (shortUrl)
+then ExpiringResource.setExpiry (resource: shortUrl, seconds: 3600)
+```
+
 # Extending the Design
