@@ -1,5 +1,4 @@
-# Problem Statement: Student Groups & Club Coordination
-
+# Problem Statement
 ## Problem Domain: Student Groups & Club Coordination
 Student groups, clubs, and project teams rely on shared communication and task management to complete projects, organize events, and meet deadlines. However, coordination is often messy — tasks are spread across multiple platforms, deadlines are unclear, and work falls through the cracks. I care about this domain because I’ve personally experienced the stress of lost tasks and redundant work while working on class projects and student organizations. A well-designed tool could help students spend less time managing logistics and more time doing meaningful work.
 
