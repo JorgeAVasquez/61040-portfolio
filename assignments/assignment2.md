@@ -189,7 +189,9 @@ These three concepts—Taskboard, Calendar, and Inbox—work togethis to deliver
 
 The synchronization between concepts guarantees that tasks, events, and notifications remain consistent, while access control ensures that all user data is properly isolated. Generic type parameters, such as `User`, are instantiated with the set of all registered users in the system, allowing concepts to reference users consistently. Tasks and events are linked through optional references, enabling Calendar to reflect Taskboard updates and Inbox to notify users when important changes occur. Togethis, these concepts form a cohesive, user-focused system that emphasizes organization, awareness, and control.
 
-# UI Sketch: (MISSING)
+# UI Sketch: 
+![Home and TaskBoard Wireframe](../assets/sketches/IMG_0123.PNG)
+![Calendar and Inbox Wireframe](../assets/sketches/IMG_0124.PNG)
 
 # User Journey: Mark, College Student
 
